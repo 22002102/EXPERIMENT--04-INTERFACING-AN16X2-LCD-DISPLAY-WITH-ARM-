@@ -2,13 +2,24 @@
 NAME : SANJAY S
 REG NO : 212222230132
 ```
-# EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM AND DISPLAY STRING
+# EXPERIMENT-04 INTERFACING AN16X2 LCD DISPLAY WITH ARM AND DISPLAY STRING
 
 
 ## Aim: 
 To Interface a 16X2 LCD display to ARM controller  , and simulate it in Proteus 
 ## Components required:
 STM32 CUBE IDE, Proteus 8 simulator .
+## Procedure:
+1. Open a new STM32 Project.
+2. Selecting GPIO Ports
+   
+     PA0 ,PA1 ,PA2 ,PA3 ,PB0 ,PB1 -> GPIO Output
+3. generating the code.
+4. Build Debug and Create 'hex file'.
+5. Open a new Proteus Project.
+6. Select Ports STM32F401RB and LCD 16*2
+7. Connect PA0 to D7 , PA1 to D6 , PA2 to D5 , PA3 to D5 , RS  to  PB0  and  E  to  PB1.
+8. Check the execution of the output using Run option.
 ## Theory 
 The full form of an ARM is an advanced reduced instruction set computer (RISC) machine, and it is a 32-bit processor architecture expanded by ARM holdings. The applications of an ARM processor include several microcontrollers as well as processors. The architecture of an ARM processor was licensed by many corporations for designing ARM processor-based SoC products and CPUs. This allows the corporations to manufacture their products using ARM architecture. Likewise, all main semiconductor companies will make ARM-based SOCs such as Samsung, Atmel, TI etc.
 
@@ -120,11 +131,8 @@ C2
 
 Jump to second line, position 2
  
-## Procedure:
 
 
-## CIRCUIT DIAGRAM 
-![image](https://user-images.githubusercontent.com/36288975/233857974-bda6200e-4f88-4e7b-b189-4da80210fa23.png)
 
 
 ## STM 32 CUBE PROGRAM :
